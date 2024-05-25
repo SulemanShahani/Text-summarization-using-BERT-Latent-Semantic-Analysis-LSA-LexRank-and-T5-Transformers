@@ -45,14 +45,4 @@ This repository provides an overview of various text summarization techniques, i
 - **Choosing the Right Technique**:
   - Depends on factors like text size, nature, desired summary type, and computational resources.
 
-## Getting Started
 
-To get started with using these summarization techniques, follow the instructions provided in each technique's respective directory.
-
-## Contributors
-
-- [Your Name](link-to-your-profile) - Role
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
