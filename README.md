@@ -1,5 +1,58 @@
-# Text summarization using BERT,Latent Semantic Analysis LSA,LexRank and T5 Transformers
-LexRank selects sentences with the highest centrality scores, indicating their importance and similarity to other sentences in the text. It assumes that sentences with higher similarity to other sentences are more likely to be important and thus included in the summary
-LSA identifies the most significant sentences by considering their contribution to the underlying latent topics. Sentences with high weights on important topics are selected for the summary
- BERT (Bidirectional Encoder Representations from Transformers) and T5 (Text-To-Text Transfer Transformer) are transformer-based models pre-trained on large corpora of text data. BERT uses a masked language model (MLM) objective to learn bidirectional representations of text, while T5 uses a text-to-text framework where both inputs and outputs are text sequences. BERT and T5 are capable of both extractive and abstractive summarization. For extractive summarization, they can rank sentences based on their representation embeddings or predict the probability of each sentence being included in the summary. For abstractive summarization, they generate summaries by conditioning on the input text and generating new text tokens.
-In summary, LexRank, LSA, and TextRank are traditional algorithms based on graph-based methods and linear algebra techniques, while BERT and T5 are state-of-the-art transformer models capable of extractive and abstractive summarization using deep learning techniques. The choice of algorithm depends on factors such as the size and nature of the text data, the desired type of summary (extractive or abstractive), and the available computational resources.
+# Text summarization using BERT,Latent Semantic Analysis LSA,LexRank and T5 Transformers# Text Summarization Techniques
+
+## Overview
+
+This repository provides an overview of various text summarization techniques, including traditional algorithms and state-of-the-art deep learning models. Text summarization is the process of distilling the most important information from a text document into a shorter version while retaining its key concepts. 
+
+## Summarization Techniques
+
+### 1. LexRank
+
+- **Description**: 
+  - Selects sentences with the highest centrality scores.
+  - Importance determined by similarity to other sentences.
+- **Implementation**: 
+  - Based on graph-based methods.
+- **Use Cases**:
+  - Effective for summarizing lengthy documents with multiple themes.
+
+### 2. Latent Semantic Analysis (LSA)
+
+- **Description**: 
+  - Identifies significant sentences by their contribution to latent topics.
+  - Sentences with high weights on important topics are selected.
+- **Implementation**: 
+  - Utilizes linear algebra techniques.
+- **Use Cases**:
+  - Suitable for summarizing documents with complex semantic structures.
+
+### 3. BERT and T5
+
+- **Description**: 
+  - Transformer-based models pre-trained on large text corpora.
+  - Capable of both extractive and abstractive summarization.
+- **Implementation**: 
+  - Utilizes deep learning techniques.
+- **Use Cases**:
+  - Ideal for generating high-quality summaries for various types of documents.
+
+## Comparison
+
+- **LexRank, LSA, and TextRank**:
+  - Traditional algorithms based on graph and linear algebra.
+- **BERT and T5**:
+  - State-of-the-art transformers using deep learning.
+- **Choosing the Right Technique**:
+  - Depends on factors like text size, nature, desired summary type, and computational resources.
+
+## Getting Started
+
+To get started with using these summarization techniques, follow the instructions provided in each technique's respective directory.
+
+## Contributors
+
+- [Your Name](link-to-your-profile) - Role
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
