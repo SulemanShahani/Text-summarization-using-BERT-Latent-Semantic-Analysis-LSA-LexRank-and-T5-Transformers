@@ -2,10 +2,6 @@
 
 ## Overview
 
-# Text Summarization Techniques
-
-## Overview
-
 This repository provides implementations of various text summarization techniques using Python libraries like Transformers, PyMuPDF, and sumy. The techniques covered include BART, T5, LSA, and LexRank. 
 
 ## Prerequisites
