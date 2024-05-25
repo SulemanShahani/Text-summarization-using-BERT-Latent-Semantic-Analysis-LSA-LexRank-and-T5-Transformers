@@ -1,8 +1,31 @@
-# Text summarization using BERT,Latent Semantic Analysis LSA,LexRank and T5 Transformers# Text Summarization Techniques
+# Text summarization using BERT,Latent Semantic Analysis LSA,LexRank and T5 Transformers
 
 ## Overview
 
-This repository provides an overview of various text summarization techniques, including traditional algorithms and state-of-the-art deep learning models. Text summarization is the process of distilling the most important information from a text document into a shorter version while retaining its key concepts. 
+# Text Summarization Techniques
+
+## Overview
+
+This repository provides implementations of various text summarization techniques using Python libraries like Transformers, PyMuPDF, and sumy. The techniques covered include BART, T5, LSA, and LexRank. 
+
+## Prerequisites
+
+Make sure you have the following installed:
+- transformers
+- PyMuPDF
+- sumy
+- nltk
+
+You can install them using pip:
+
+```bash
+pip install transformers PyMuPDF sumy
+
+import nltk
+nltk.download('punkt')
+
+
+# Make sure to replace '/content/eng.pdf' with your file path
 
 ## Summarization Techniques
 
